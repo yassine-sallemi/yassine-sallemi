@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="40" viewBox="0 0 147 40" role="img" aria-label="LinkedIn">
+  <style>
+    text { font-family: "Inter", "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; fill: #ffffff; font-size: 17px; font-weight: 600; }
+  </style>
+  <rect x="0.5" y="0.5" width="146" height="39" rx="9" fill="#0A66C2" stroke="#0A66C2"/>
+  <!-- LinkedIn mark, drawn as an outline to match the globe -->
+  <g transform="translate(24.4 9)" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round">
+    <rect x="0.9" y="0.9" width="20.2" height="20.2" rx="4"/>
+    <line x1="6.2" y1="9.6" x2="6.2" y2="16"/>
+    <circle cx="6.2" cy="6" r="0.6" fill="#ffffff"/>
+    <path d="M10.2 16v-6.4M10.2 12.4c0-1.8 1.2-2.9 2.8-2.9s2.6 1.1 2.6 2.9V16"/>
+  </g>
+  <text x="56.4" y="26">LinkedIn</text>
+</svg>

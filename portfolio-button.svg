@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="52" viewBox="0 0 300 52" role="img" aria-label="Portfolio: yassinesallemi.me">
+  <style>
+    text { font-family: "Inter", "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }
+    .label { fill: #c9d6e3; font-size: 13px; font-weight: 500; }
+    .domain { fill: #ffffff; font-size: 17px; font-weight: 600; }
+  </style>
+  <rect x="0.5" y="0.5" width="299" height="51" rx="10" fill="#16202a" stroke="#1f6fb5"/>
+  <!-- Globe -->
+  <g transform="translate(22 14)" fill="none" stroke="#5aa2e0" stroke-width="1.8">
+    <circle cx="12" cy="12" r="10.5"/>
+    <ellipse cx="12" cy="12" rx="4.6" ry="10.5"/>
+    <line x1="1.5" y1="12" x2="22.5" y2="12"/>
+  </g>
+  <text x="60" y="22" class="label">Portfolio</text>
+  <text x="60" y="40" class="domain">yassinesallemi.me</text>
+</svg>

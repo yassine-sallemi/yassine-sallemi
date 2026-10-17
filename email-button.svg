@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="40" viewBox="0 0 147 40" role="img" aria-label="Email">
+  <style>
+    text { font-family: "Inter", "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; fill: #ffffff; font-size: 17px; font-weight: 600; }
+  </style>
+  <rect x="0.5" y="0.5" width="146" height="39" rx="9" fill="#EA4335" stroke="#EA4335"/>
+  <!-- Envelope, drawn as an outline to match the globe -->
+  <g transform="translate(35.8 10.5)" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="0.9" y="0.9" width="21.2" height="17.2" rx="3"/>
+    <path d="M1.8 2.5l9.7 7.6 9.7-7.6"/>
+  </g>
+  <text x="68.8" y="26">Email</text>
+</svg>

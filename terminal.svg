@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="486" viewBox="0 0 760 486" role="img" aria-label="Terminal: kubectl get student yassine-sallemi -o yaml. Software Engineering Student at INSAT, Tunis, 5th year. Certified Kubernetes Administrator and AWS Certified Solutions Architect, Associate. Open to a six-month internship from February 2027, relocation anywhere.">
+  <style>
+    text { font-family: "JetBrains Mono", "Cascadia Code", "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; }
+    .title { fill: #8b949e; font-size: 13px; }
+    .prompt { fill: #3fb950; }
+    .path { fill: #58a6ff; }
+    .cmd { fill: #e6edf3; }
+    .key { fill: #ff7b72; }
+    .val { fill: #a5d6ff; }
+    .dash { fill: #8b949e; }
+    .ok { fill: #3fb950; }
+    /* Each line appears in turn, as if the command were printing it. */
+    .l { opacity: 0; animation: show 0.01s linear forwards; }
+    .cursor { fill: #e6edf3; animation: blink 1.4s ease-in-out infinite; animation-delay: 2.3s; opacity: 0; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes blink { 0%, 45% { opacity: 1; } 55%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .l { animation: none; opacity: 1; }
+      .cursor { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <!-- Window -->
+  <rect x="0.5" y="0.5" width="759" height="485" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 12.5a12 12 0 0 1 12-12h735a12 12 0 0 1 12 12v24h-759z" fill="#161b22"/>
+  <line x1="0.5" y1="36.5" x2="759.5" y2="36.5" stroke="#30363d"/>
+  <circle cx="22" cy="18.5" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="18.5" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="18.5" r="6" fill="#28c840"/>
+  <text x="380" y="23" text-anchor="middle" class="title">yassine@insat: ~</text>
+
+  <!-- Command -->
+  <text x="24" y="72" class="l" style="animation-delay:0.2s"><tspan class="prompt">yassine@insat</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ kubectl get student yassine-sallemi -o yaml</tspan></text>
+
+  <!-- Output -->
+  <text x="24" y="108" class="l" style="animation-delay:0.6s"><tspan class="key">apiVersion</tspan><tspan class="cmd">: </tspan><tspan class="val">people/v1</tspan></text>
+  <text x="24" y="132" class="l" style="animation-delay:0.7s"><tspan class="key">kind</tspan><tspan class="cmd">: </tspan><tspan class="val">Student</tspan></text>
+  <text x="24" y="156" class="l" style="animation-delay:0.8s"><tspan class="key">metadata</tspan><tspan class="cmd">:</tspan></text>
+  <text x="24" y="180" class="l" style="animation-delay:0.9s" xml:space="preserve"><tspan class="key">  name</tspan><tspan class="cmd">: </tspan><tspan class="val">yassine-sallemi</tspan></text>
+  <text x="24" y="204" class="l" style="animation-delay:1.0s" xml:space="preserve"><tspan class="key">  location</tspan><tspan class="cmd">: </tspan><tspan class="val">Tunis</tspan></text>
+  <text x="24" y="228" class="l" style="animation-delay:1.1s"><tspan class="key">spec</tspan><tspan class="cmd">:</tspan></text>
+  <text x="24" y="252" class="l" style="animation-delay:1.2s" xml:space="preserve"><tspan class="key">  role</tspan><tspan class="cmd">: </tspan><tspan class="val">Software Engineering Student</tspan></text>
+  <text x="24" y="276" class="l" style="animation-delay:1.3s" xml:space="preserve"><tspan class="key">  school</tspan><tspan class="cmd">: </tspan><tspan class="val">INSAT, software engineering, 5th year</tspan></text>
+  <text x="24" y="300" class="l" style="animation-delay:1.4s" xml:space="preserve"><tspan class="key">  certifications</tspan><tspan class="cmd">:</tspan></text>
+  <text x="24" y="324" class="l" style="animation-delay:1.5s" xml:space="preserve"><tspan class="dash">    - </tspan><tspan class="val">Certified Kubernetes Administrator (CKA)</tspan></text>
+  <text x="24" y="348" class="l" style="animation-delay:1.6s" xml:space="preserve"><tspan class="dash">    - </tspan><tspan class="val">AWS Certified Solutions Architect – Associate</tspan></text>
+  <text x="24" y="372" class="l" style="animation-delay:1.7s"><tspan class="key">status</tspan><tspan class="cmd">:</tspan></text>
+  <text x="24" y="396" class="l" style="animation-delay:1.8s" xml:space="preserve"><tspan class="key">  phase</tspan><tspan class="cmd">: </tspan><tspan class="ok">OpenToWork</tspan></text>
+  <text x="24" y="420" class="l" style="animation-delay:1.9s" xml:space="preserve"><tspan class="key">  internship</tspan><tspan class="cmd">: </tspan><tspan class="val">six months, from February 2027</tspan></text>
+  <text x="24" y="444" class="l" style="animation-delay:2.0s" xml:space="preserve"><tspan class="key">  relocation</tspan><tspan class="cmd">: </tspan><tspan class="val">anywhere</tspan></text>
+
+  <!-- Next prompt with a blinking cursor -->
+  <text x="24" y="472" class="l" style="animation-delay:2.2s"><tspan class="prompt">yassine@insat</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ </tspan><tspan class="cursor">█</tspan></text>
+</svg>
